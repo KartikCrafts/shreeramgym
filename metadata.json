@@ -1,0 +1,6 @@
+{
+  "name": "Shree Ram GYM",
+  "description": "Aesthetic, eye-friendly fitness web application for Shree Ram GYM featuring workout programs, batch schedules, membership plans, and interactive BMI & diet planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
