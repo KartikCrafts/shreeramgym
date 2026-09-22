@@ -17,7 +17,7 @@ export const WORKOUT_PROGRAMS: WorkoutProgram[] = [
       'Spinal decompression & posture correction',
       '1-on-1 lifting form check every session'
     ],
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80'
+    image: 'https://i.pinimg.com/736x/35/bd/35/35bd3508ec89cf49629454b4be584746.jpg'
   },
   {
     id: 'prog-2',

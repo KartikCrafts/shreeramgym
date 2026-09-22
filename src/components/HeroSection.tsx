@@ -143,7 +143,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="relative rounded-2xl overflow-hidden border-2 border-stone-200/80 bg-white shadow-2xl group">
                 <motion.img
                   style={{ y: imageParallax }}
-                  src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
+                  src="https://i.pinimg.com/736x/35/bd/35/35bd3508ec89cf49629454b4be584746.jpg"
                   alt="Shree Ram GYM Modern Strength Equipment"
                   className="w-full h-80 sm:h-96 object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
