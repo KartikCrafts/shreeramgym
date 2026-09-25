@@ -180,6 +180,45 @@ export const ProgramsSection: React.FC<ProgramsSectionProps> = ({ onOpenPlanner 
           </AnimatePresence>
         </div>
 
+        {/* Sketchfab 3D Gym Model Embed */}
+        <motion.div 
+          initial={{ opacity: 0, y: 50, scale: 0.98 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{ duration: 0.6 }}
+          className="mt-14 w-full bg-[#24211D] rounded-3xl p-3 sm:p-5 border border-[#D4B996]/40 shadow-2xl overflow-hidden"
+        >
+          <div className="sketchfab-embed-wrapper w-full h-[450px] sm:h-[550px] lg:h-[620px] rounded-2xl overflow-hidden">
+            <iframe
+              title="Gym"
+              frameBorder="0"
+              allowFullScreen
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              src="https://sketchfab.com/models/026e2e9d69ed4e0892be49d439a45858/embed"
+              className="w-full h-full border-0 rounded-2xl"
+            />
+          </div>
+          <p className="text-xs text-[#A89886] mt-3 text-center">
+            <a
+              href="https://sketchfab.com/3d-models/gym-026e2e9d69ed4e0892be49d439a45858?utm_medium=embed&utm_campaign=share-popup&utm_content=026e2e9d69ed4e0892be49d439a45858"
+              target="_blank"
+              rel="noreferrer nofollow"
+              className="font-bold text-[#D4B996] hover:underline"
+            >
+              Gym
+            </a>{' '}
+            by{' '}
+            <a
+              href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=026e2e9d69ed4e0892be49d439a45858"
+              target="_blank"
+              rel="noreferrer nofollow"
+              className="font-bold text-[#D4B996] hover:underline"
+            >
+              Sketchfab
+            </a>
+          </p>
+        </motion.div>
+
         {/* Bottom Banner CTA with Motion */}
         <motion.div 
           initial={{ opacity: 0, y: 50, scale: 0.98 }}
